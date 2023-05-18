@@ -1,0 +1,144 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo.left {
+  order: 1;
+}
+
+.navbar.right {
+  order: 2;
+}
+
+/* Additional styling */
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 10px;
+}
+.navbar {
+  display: flex;
+}
+
+.logoo {
+  text-align: center;
+}
+.small.title {
+  font-size: 34px;
+  color: green;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+}
+.section2 {
+  font-size: 23px;
+}
+.fordoctors {
+  background-color: aqua;
+}
+.section3 {
+  display: flex;
+  font-size: 30px;
+}
+.logo3 {
+  text-align: center;
+  font-size: medium;
+}
+.logo4 {
+  text-align: center;
+  font-size: medium;
+}
+.logo5 {
+  text-align: center;
+  font-size: medium;
+}
+.global-company {
+  display: grid;
+  margin-left: 50px;
+  margin-right: 50px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.global-company > div {
+  padding: 15px;
+}
+
+.global-company img {
+  width: 100px;
+}
+#h1 {
+  grid-area: 1 / 1 / 4 / 5;
+  color: #00b39b;
+}
+
+#second-main-box {
+  display: block;
+  background-color: #d0faf4;
+  margin-top: 10px;
+}
+
+#second-main-box > section {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px;
+  margin-bottom: 100px;
+}
+
+#second-main-box > section > div > h1 {
+  font-size: 35px;
+  font-weight: 200;
+  color: #00b39b;
+}
+
+#second-main-box > section > div > p {
+  font-size: 15px;
+  color: gray;
+}
+.timber {
+  text-align: center;
+  font-size: 30px;
+  color: #00b39b;
+}
+.promes {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+}
+.tadic {
+  text-align: center;
+  font-size: 30px;
+}
+.delight {
+  text-align: center;
+  font-size: 10px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.photos > div {
+  width: 32%;
+  margin-bottom: 20px;
+}
+
+.photos > div:nth-child(7),
+.photos > div:nth-child(8),
+.photos > div:nth-child(9) {
+  width: 32%;
+}
+
+.photos > div:nth-child(10) {
+  width: 100%;
+}

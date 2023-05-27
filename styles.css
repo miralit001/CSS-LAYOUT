@@ -1,0 +1,297 @@
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 40px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.logo img {
+  width: 200px;
+  padding: 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.product {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.product p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 24px;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.contact-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.hot-drop {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hot-drop h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hot-drop img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 0 0 23%;
+  margin: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.buy-button,
+.info-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+
+.brand-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.buy-button {
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buy-button:hover {
+  background-color: #555;
+}
+
+.shop-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shop-product {
+  flex: 0 0 calc(50% - 10px);
+  margin: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.shop-product img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+  gap: 20px; /* Gap between the items */
+}
+
+.sneaker-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sneaker-item img {
+  width: 100%; /* Adjust the width as per your preference */
+  max-width: 300px; /* Set a maximum width for the images */
+}
+
+.sneaker-item h3 {
+  margin-top: 10px;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  background-color: #ff5f6d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #e64c5a;
+}
+.reviews {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.reviews h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center; /* Center the heading */
+}
+
+.reviews ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display the reviews side by side */
+  flex-wrap: wrap; /* Allow wrapping to a new line if necessary */
+  justify-content: space-between; /* Distribute the reviews evenly */
+}
+
+.reviews li {
+  width: 48%; /* Adjust the width as needed */
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.reviews li p {
+  margin: 0;
+}
+
+.reviews li p:first-child {
+  font-weight: bold;
+}
+
+.reviews li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+  vertical-align: middle;
+}
